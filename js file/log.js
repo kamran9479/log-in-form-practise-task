@@ -6,9 +6,7 @@ document.getElementById('log-in-button')
    const pinNumber = document.getElementById('pin-input').value;
 
    if(numberInput === '01734989479' && pinNumber === 'nobab' ){
-    window.location.href = '/index.home.html'
-    
-
+    window.location.href = '/log in task/index.home.html'
    }
    else{
     alert('hauyar pola thik number/Pin de !')
