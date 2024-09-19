@@ -6,7 +6,7 @@ document.getElementById('log-in-button')
    const pinNumber = document.getElementById('pin-input').value;
 
    if(numberInput === '01734989479' && pinNumber === 'nobab' ){
-    window.location.href = '/home.html'
+    window.location.href = '/index.home.html'
     
 
    }
