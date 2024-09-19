@@ -5,8 +5,9 @@ document.getElementById('log-in-button')
    const numberInput = document.getElementById('number-input').value;
    const pinNumber = document.getElementById('pin-input').value;
 
-   if(numberInput === '01734989479' && pinNumber === 'fuckyou' ){
-    console.log('okey')
+   if(numberInput === '01734989479' && pinNumber === 'nobab' ){
+    window.location.href = '/home.html'
+    
 
    }
    else{
